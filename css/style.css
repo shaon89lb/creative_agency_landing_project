@@ -1,0 +1,188 @@
+/* All common css starts here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    width: 1320px;
+}
+ol,ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/* all common css ends here */
+
+/* header_part css starts here */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:35px 0;
+}
+.header_menu{
+    display: flex;
+    gap: 50px;
+    
+}
+.header_menu a:hover{
+    color: #5956E8;
+    transition: 0.3s;
+}
+.header_menu a{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #181818;
+}
+.header_btn button{
+    background-color: #5956E8;
+    padding: 13px 24px;
+    border: none;
+    border-radius: 10px;
+}
+.header_btn button a{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+}
+/* header_part css ends here */
+#banner_part{
+    padding: 182px 0;
+    background-color: #5956E8;
+}
+.banner{
+    display: flex;
+    gap: 280px;
+}
+.banner_content h2{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 80px;
+    color: #FFFEFE;
+    width: 501px;
+    margin-bottom: 25px;
+}
+.banner_content p{
+     font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #FFFFFF;
+    width: 542px;
+}
+
+#service_part{
+    margin: 100px 0;
+}
+.service_content{
+    text-align: center;
+    width: 542px;
+    margin: 0 auto;
+}
+.service_content h2{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.service_content p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #181818;
+    opacity: 70%;
+    margin-bottom: 50px;
+}
+
+
+.servicecard_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.service_card{
+    border: 1px solid #E3E3E3;
+    border-radius: 10px;
+    padding: 63px 48px;
+    width: 420px;
+    transition: all linear 0.3s;
+}
+.service_card h3{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #181818;
+    margin-top: 30px;
+}
+.service_card p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #181818;
+    opacity: 70%;
+    margin-top: 20px;
+}
+.service_card:hover{
+    border: 1px solid transparent;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+
+
+
+
+.cardWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+
+.cardOne{
+    padding: 63px 48px;
+    background: white;
+    border: 2px solid #E3E3E3;
+    border-radius: 10px;
+    width: 30%;
+}
+.cardImg{
+    padding: 17px;
+    border: 1px solid #5956E8;
+    border-radius: 10px;
+    width: 71px;
+    margin-bottom: 30px;
+}
+.cardOne h3{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.cardOne p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #181818;
+    opacity: 70%;
+    width: 274px;
+}
+.cardOne:hover{
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    transition: all linear 0.3s;
+}
